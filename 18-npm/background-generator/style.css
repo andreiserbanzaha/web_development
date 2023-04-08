@@ -1,0 +1,24 @@
+body {
+    font-family: cursive;
+    color: rgba(0, 0, 0, .8);
+    text-align: center;
+    letter-spacing: .15em;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    letter-spacing: .2em;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+h3 {
+    font: 900 1em, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.01em;
+}

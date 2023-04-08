@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Register</title>
+</head>
+
+<body>
+    <a href="index.html">
+        <h4>Go Back</h4>
+    </a>
+    <hr><br>
+
+    <!-- Default method is "GET" -> will add the name fields in the URL!!! -->
+    <form method="POST ">
+        First Name: <input type="text" name="firstname"><br>
+        Last Name: <input type="text" name="lastname"><br>
+        Email: <input type="email" required name="email"><br>
+        Password: <input type="password" minlength="10" name="password"><br>
+        Birthday: <input type="date" name="birthday"><br>
+
+        Gender:<br>
+        <input type="radio" name="gender" value="Male" checked=true>Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Other">Other<br>
+
+        Pets:<br>
+        <input type="checkbox" name="dogs">Dogs<br>
+        <input type="checkbox" name="cats">Cats<br>
+
+        Car:
+        <select name="cars">
+            <option value="volvo" name="volvo">Volvo</option>
+            <option value="audi" name="audi">Audi</option>
+        </select>
+
+        <br>
+
+        <input type="submit" value="Register">
+        <input type="reset">
+    </form>
+
+</body>
+
+</html>
+
+<!-- when submitting form -> URL
+?firstname=asd
+&lastname=asd
+&email=2e%40gfaef.com
+&password=afa39fja38ja3oraj3r
+&birthday=
+&gender=Other
+&dogs=on
+&cars=audi
+-->

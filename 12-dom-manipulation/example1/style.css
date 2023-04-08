@@ -1,0 +1,31 @@
+.coolTitle {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 40px;
+    transform: skew(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: tomato;
+    text-shadow: darkslategray;
+}
+
+.coolFriends {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    transform: skewY(-15deg);
+    word-spacing: 10px;
+    color: darkslategrey;
+    text-shadow: deeppink;
+}
+
+.coolFriendsCheck {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-decoration: line-through;
+    transform: skewY(-15deg);
+    word-spacing: 10px;
+    color: darkslategrey;
+    text-shadow: deeppink;
+}
